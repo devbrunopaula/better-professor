@@ -1,10 +1,17 @@
 import React from "react";
+import Logo from "../logo-bp.png";
 
-export default function Nav() {
+function Nav(props) {
   return (
-    <header>
-      <h1>Logo</h1>
-      <nav></nav>
-    </header>
+    <div className="container">
+      <header>
+        <img src={Logo} alt="" />
+        <nav>
+            
+        </nav>
+      </header>
+    </div>
   );
 }
+
+export default Nav;

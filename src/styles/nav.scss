@@ -1,3 +1,14 @@
 nav {
   border: solid red;
 }
+
+header {
+  background-image: url(../assets/mobile-bg.svg) no-repeat;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 1rem;
+  background-size: cover;
+  img {
+    width: 90%;
+  }
+}
